@@ -8,7 +8,7 @@
 
 Runs entirely on-device via [Ollama](https://ollama.com/) by default — no cloud APIs, nothing leaves your machine — with an optional Gemini (cloud) mode for a zero-setup public demo. Built to `SPEC.md`'s requirements; see that file for the full specification this implements.
 
-[![Tests](https://github.com/AbdullohRR/ai-teaching-assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/AbdullohRR/ai-teaching-assistant/actions/workflows/tests.yml)
+[![Tests](https://github.com/Amankumar286/ai-teaching-assistant-app/actions/workflows/tests.yml/badge.svg)](https://github.com/Amankumar286/ai-teaching-assistant-app/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Ollama](https://img.shields.io/badge/LLM-Ollama%20(local)-000000?logo=ollama&logoColor=white)](https://ollama.com/)
@@ -132,7 +132,7 @@ not just assume:
 ### Install
 
 ```powershell
-cd ai-teaching-assistant
+cd ai-teaching-assistant-app
 py -3.11 -m venv .venv
 .\.venv\Scripts\pip install -r requirements.txt
 
