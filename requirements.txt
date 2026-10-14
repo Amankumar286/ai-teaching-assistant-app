@@ -1,0 +1,13 @@
+pymupdf
+python-pptx
+python-docx
+chromadb
+sentence-transformers
+torch
+rank_bm25
+ollama
+streamlit
+
+# Gemini (cloud, optional) -- see config.py's "Gemini (cloud, optional)" section
+requests
+python-dotenv

@@ -1,0 +1,32 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#4fd1c5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <circle cx="1000" cy="60" r="220" fill="url(#glow)"/>
+  <circle cx="150" cy="220" r="160" fill="url(#glow)"/>
+
+  <text x="80" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#f0f3f8">
+    🎓 AI Teaching Assistant
+  </text>
+  <text x="80" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#9aa4b2">
+    Ask your own course materials a question. Get a grounded answer — never a guess.
+  </text>
+
+  <rect x="80" y="182" width="1040" height="2" fill="url(#accent)" opacity="0.6"/>
+
+  <text x="80" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#6b7685">
+    Hybrid retrieval (BM25 + dense + RRF) · 6-tool agent · runs 100% local via Ollama
+  </text>
+</svg>

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+app/database/chroma/
+app/database/bm25_index.pkl
+data/_scratch_chroma/
+data/samples/
+data/uploads/
